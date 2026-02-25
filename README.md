@@ -105,7 +105,9 @@ const aalok = {
 </div>
 
 <br/>
-
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
+</div>
 
 <br/>
 
