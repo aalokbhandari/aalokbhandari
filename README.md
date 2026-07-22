@@ -7,12 +7,12 @@
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=alokbndry10&style=for-the-badge&color=0e75b6" alt="Profile Views"/>
-  <a href="https://github.com/alokbndry10?tab=followers">
-    <img src="https://img.shields.io/github/followers/alokbndry10?style=for-the-badge&color=0e75b6" alt="Followers"/>
+  <img src="https://komarev.com/ghpvc/?username=aalokbhandari&style=for-the-badge&color=0e75b6" alt="Profile Views"/>
+  <a href="https://github.com/aalokbhandari?tab=followers">
+    <img src="https://img.shields.io/github/followers/aalokbhandari?style=for-the-badge&color=0e75b6" alt="Followers"/>
   </a>
-  <a href="https://github.com/alokbndry10?tab=repositories">
-    <img src="https://img.shields.io/github/stars/alokbndry10?style=for-the-badge&color=0e75b6" alt="Stars"/>
+  <a href="https://github.com/aalokbhandari?tab=repositories">
+    <img src="https://img.shields.io/github/stars/aalokbhandari?style=for-the-badge&color=0e75b6" alt="Stars"/>
   </a>
 </div>
 
