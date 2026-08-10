@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 252" width="600" height="252" role="img" aria-label="Observe the workflow, understand the constraint, model the system, build, measure, improve.">
+  <rect width="600" height="252" fill="#0D1117"/>
+  <line x1="26" y1="26" x2="26" y2="226" stroke="#242A33" stroke-width="1"/>
+  <line x1="254" y1="26" x2="562" y2="26" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="26" r="5.5" fill="#111720" stroke="#6C9BFF" stroke-width="1.6"/>
+  <text x="48" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#D6DDE6">Observe the workflow</text>
+  <text x="584" y="31" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#707C8B">01</text>
+  <line x1="302" y1="66" x2="562" y2="66" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="66" r="5.5" fill="#111720" stroke="#6C9BFF" stroke-width="1.6"/>
+  <text x="48" y="72" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#D6DDE6">understand the constraint</text>
+  <text x="584" y="71" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#707C8B">02</text>
+  <line x1="216" y1="106" x2="562" y2="106" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="106" r="5.5" fill="#111720" stroke="#6C9BFF" stroke-width="1.6"/>
+  <text x="48" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#D6DDE6">model the system</text>
+  <text x="584" y="111" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#707C8B">03</text>
+  <line x1="112" y1="146" x2="562" y2="146" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="146" r="5.5" fill="#111720" stroke="#6C9BFF" stroke-width="1.6"/>
+  <text x="48" y="152" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#D6DDE6">build</text>
+  <text x="584" y="151" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#707C8B">04</text>
+  <line x1="131" y1="186" x2="562" y2="186" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="186" r="5.5" fill="#111720" stroke="#6C9BFF" stroke-width="1.6"/>
+  <text x="48" y="192" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#D6DDE6">measure</text>
+  <text x="584" y="191" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#707C8B">05</text>
+  <line x1="140" y1="226" x2="562" y2="226" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="226" r="5.5" fill="#111720" stroke="#6C9BFF" stroke-width="1.6"/>
+  <circle cx="26" cy="226" r="2.4" fill="#2DD4BF"/>
+  <text x="48" y="232" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#D6DDE6">improve.</text>
+  <text x="584" y="231" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#707C8B">06</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 144" width="600" height="144" role="img" aria-label="Aalok Bhandari - Software Engineer, Systems, PostgreSQL, Business Automation">
+  <rect width="600" height="144" fill="#0D1117"/>
+  <circle cx="516" cy="12" r="1.1" fill="#3B4450"/>
+  <circle cx="516" cy="24" r="1.1" fill="#3B4450"/>
+  <circle cx="516" cy="36" r="1.1" fill="#3B4450"/>
+  <circle cx="528" cy="12" r="1.1" fill="#3B4450"/>
+  <circle cx="528" cy="24" r="1.1" fill="#3B4450"/>
+  <circle cx="528" cy="36" r="1.1" fill="#3B4450"/>
+  <circle cx="540" cy="12" r="1.1" fill="#3B4450"/>
+  <circle cx="540" cy="24" r="1.1" fill="#3B4450"/>
+  <circle cx="540" cy="36" r="1.1" fill="#3B4450"/>
+  <circle cx="552" cy="12" r="1.1" fill="#3B4450"/>
+  <circle cx="552" cy="24" r="1.1" fill="#3B4450"/>
+  <circle cx="552" cy="36" r="1.1" fill="#3B4450"/>
+  <circle cx="564" cy="12" r="1.1" fill="#3B4450"/>
+  <circle cx="564" cy="24" r="1.1" fill="#3B4450"/>
+  <circle cx="564" cy="36" r="1.1" fill="#3B4450"/>
+  <circle cx="576" cy="12" r="1.1" fill="#3B4450"/>
+  <circle cx="576" cy="24" r="1.1" fill="#3B4450"/>
+  <circle cx="576" cy="36" r="1.1" fill="#3B4450"/>
+  <circle cx="588" cy="12" r="1.1" fill="#3B4450"/>
+  <circle cx="588" cy="24" r="1.1" fill="#3B4450"/>
+  <circle cx="588" cy="36" r="1.1" fill="#3B4450"/>
+  <g transform="translate(0,20) scale(1)">
+    <rect x="0.75" y="0.75" width="50.5" height="50.5" rx="13" fill="#111720" stroke="#242A33" stroke-width="1.5"/>
+    <rect x="13" y="14" width="26" height="3.6" rx="1.8" fill="#3B4450"/>
+    <rect x="13" y="24.2" width="26" height="3.6" rx="1.8" fill="#3B4450"/>
+    <rect x="13" y="34.4" width="26" height="3.6" rx="1.8" fill="#3B4450"/>
+    <rect x="13" y="24.2" width="14.5" height="3.6" rx="1.8" fill="#6C9BFF"/>
+  </g>
+  <text x="68" y="58" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" letter-spacing="-0.4" fill="#E9EEF5">Aalok Bhandari</text>
+  <text x="0" y="100" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#9AA6B4">Software Engineer <tspan fill="#3B4450">·</tspan> Systems <tspan fill="#3B4450">·</tspan> PostgreSQL <tspan fill="#3B4450">·</tspan> Business Automation</text>
+  <line x1="0" y1="124" x2="600" y2="124" stroke="#242A33" stroke-width="1"/>
+  <line x1="1" y1="124" x2="44" y2="124" stroke="#6C9BFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

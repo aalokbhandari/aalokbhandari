@@ -1,6 +1,4 @@
-# Aalok Bhandari
-
-### Software Engineer · Systems · PostgreSQL · Business Automation
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.svg"><img src=".github/assets/hero-light.svg" alt="Aalok Bhandari — Software Engineer · Systems · PostgreSQL · Business Automation" width="100%"></picture>
 
 I build software for **messy real-world business processes**—the kind where correctness, data integrity, concurrency, and reliability matter more than having the newest framework.
 
@@ -10,72 +8,79 @@ I care about one principle:
 
 > **If I claim I built it, the repository should be able to prove it.**
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## What I Build
 
-* **Business & financial systems** — accounting, VAT, reconciliation, billing and compliance workflows
-* **Database-driven applications** — PostgreSQL, multi-tenant architecture, RLS and transactional correctness
-* **Offline-first systems** — synchronization, conflict handling and reliable client/server state
-* **Production software** — testing, observability, CI/CD, backups and failure recovery
-* **Automation** — replacing repetitive operational workflows with reliable software
+<table>
+<tr><td><b>Business &amp; financial systems</b> —</td><td>accounting, VAT, reconciliation, billing and compliance workflows</td></tr>
+<tr><td><b>Database-driven applications</b> —</td><td>PostgreSQL, multi-tenant architecture, RLS and transactional correctness</td></tr>
+<tr><td><b>Offline-first systems</b> —</td><td>synchronization, conflict handling and reliable client/server state</td></tr>
+<tr><td><b>Production software</b> —</td><td>testing, observability, CI/CD, backups and failure recovery</td></tr>
+<tr><td><b>Automation</b> —</td><td>replacing repetitive operational workflows with reliable software</td></tr>
+</table>
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Featured Work
 
-### 🧾 VAT Billing & Accounting System
+<table>
+<tr><td>
+<h3>🧾 VAT Billing &amp; Accounting System</h3>
+<p>A production-oriented billing and accounting platform developed around the operational requirements of a real travel agency.</p>
+<p><b>Focus:</b><br>
+<code>PostgreSQL</code> · <code>TypeScript</code> · <code>Supabase</code> · <code>Multi-tenancy</code> · <code>RLS</code> · <code>Accounting</code> · <code>VAT</code></p>
+<p><b>What makes it interesting</b></p>
+<ul>
+<li>Multi-tenant database architecture</li>
+<li>Database-enforced security</li>
+<li>Financial transaction workflows</li>
+<li>VAT and billing logic</li>
+<li>Real-world business data</li>
+<li>Production-oriented reliability and recovery</li>
+<li>Designed around an actual operating business rather than a tutorial dataset</li>
+</ul>
+<p>→ <b><a href="#">View Repository</a></b><br>
+→ <b><a href="#">Read Case Study</a></b></p>
+</td></tr>
+</table>
 
-A production-oriented billing and accounting platform developed around the operational requirements of a real travel agency.
+<table>
+<tr><td>
+<h3>✈️ Travora</h3>
+<p>A travel technology platform designed to modernize the workflow between travelers, travel businesses and digital travel services.</p>
+<p><b>Focus:</b><br>
+<code>Next.js</code> · <code>TypeScript</code> · <code>PostgreSQL</code> · <code>Supabase</code> · <code>APIs</code> · <code>Travel Technology</code></p>
+<p><b>Highlights</b></p>
+<ul>
+<li>Modern full-stack architecture</li>
+<li>Structured travel workflows</li>
+<li>Database-backed application state</li>
+<li>Service-oriented design</li>
+<li>Designed as a foundation for future travel automation</li>
+</ul>
+<p>→ <b><a href="#">View Repository</a></b><br>
+→ <b><a href="#">Read Architecture</a></b></p>
+</td></tr>
+</table>
 
-**Focus:**
-`PostgreSQL` · `TypeScript` · `Supabase` · `Multi-tenancy` · `RLS` · `Accounting` · `VAT`
+<table>
+<tr><td>
+<h3>🌐 STP Website</h3>
+<p>A production web platform focused on performance, maintainability, responsive UX and modern frontend architecture.</p>
+<p><b>Focus:</b><br>
+<code>Next.js</code> · <code>TypeScript</code> · <code>React</code> · <code>Tailwind CSS</code></p>
+<p>→ <b><a href="#">View Repository</a></b></p>
+</td></tr>
+</table>
 
-**What makes it interesting**
+<br>
 
-* Multi-tenant database architecture
-* Database-enforced security
-* Financial transaction workflows
-* VAT and billing logic
-* Real-world business data
-* Production-oriented reliability and recovery
-* Designed around an actual operating business rather than a tutorial dataset
-
-→ **[View Repository](#)**
-→ **[Read Case Study](#)**
-
----
-
-### ✈️ Travora
-
-A travel technology platform designed to modernize the workflow between travelers, travel businesses and digital travel services.
-
-**Focus:**
-`Next.js` · `TypeScript` · `PostgreSQL` · `Supabase` · `APIs` · `Travel Technology`
-
-**Highlights**
-
-* Modern full-stack architecture
-* Structured travel workflows
-* Database-backed application state
-* Service-oriented design
-* Designed as a foundation for future travel automation
-
-→ **[View Repository](#)**
-→ **[Read Architecture](#)**
-
----
-
-### 🌐 STP Website
-
-A production web platform focused on performance, maintainability, responsive UX and modern frontend architecture.
-
-**Focus:**
-`Next.js` · `TypeScript` · `React` · `Tailwind CSS`
-
-→ **[View Repository](#)**
-
----
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Currently
 
@@ -83,15 +88,13 @@ I'm deliberately going deeper rather than wider.
 
 ### Engineering
 
-* PostgreSQL internals and query performance
-* Transactions and concurrency
-* Distributed systems fundamentals
-* Backend architecture
-* Testing and correctness
-* Docker and Linux
-* CI/CD with GitHub Actions
-* AWS infrastructure
-* Observability with logs, metrics and traces
+<table>
+<tr><td>PostgreSQL internals and query performance</td><td>Transactions and concurrency</td></tr>
+<tr><td>Distributed systems fundamentals</td><td>Backend architecture</td></tr>
+<tr><td>Testing and correctness</td><td>Docker and Linux</td></tr>
+<tr><td>CI/CD with GitHub Actions</td><td>AWS infrastructure</td></tr>
+<tr><td colspan="2">Observability with logs, metrics and traces</td></tr>
+</table>
 
 ### Building
 
@@ -99,15 +102,17 @@ I'm working toward turning software built for real business operations into **re
 
 The current direction is:
 
-**Real business problem → production system → measurable result → reusable product**
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/flow-product-dark.svg"><img src=".github/assets/flow-product-light.svg" alt="Real business problem → production system → measurable result → reusable product"></picture>
 
 ### Research
 
 I'm interested in the intersection of:
 
-**business-process digitisation × databases × distributed systems × financial correctness**
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/intersect-research-dark.svg"><img src=".github/assets/intersect-research-light.svg" alt="business-process digitisation × databases × distributed systems × financial correctness"></picture>
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Engineering Principles
 
@@ -151,7 +156,9 @@ I'm intentionally reducing the number of technologies I present as expertise.
 
 I'd rather understand a small set of systems deeply than collect an impressive list of logos.
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Technical Focus
 
@@ -170,7 +177,9 @@ I'd rather understand a small set of systems deeply than collect an impressive l
 
 > This list represents technologies I actively work with or am deliberately developing depth in—not every technology I have ever touched.
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Open Source
 
@@ -180,13 +189,11 @@ Over time, I aim to contribute production-quality fixes, features and documentat
 
 **Current areas of interest:**
 
-* PostgreSQL ecosystem
-* Supabase ecosystem
-* Developer tooling
-* Document processing
-* Business automation
+`PostgreSQL ecosystem`&nbsp; `Supabase ecosystem`&nbsp; `Developer tooling`&nbsp; `Document processing`&nbsp; `Business automation`
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Writing
 
@@ -194,27 +201,29 @@ I document things I actually build.
 
 Topics I am particularly interested in:
 
-* Database correctness
-* Double-entry accounting systems
-* Offline-first synchronization
-* PostgreSQL concurrency
-* Production failures
-* Business-process automation
-* Building software inside a real SME
-* Engineering trade-offs
+<table>
+<tr><td>Database correctness</td><td>Double-entry accounting systems</td></tr>
+<tr><td>Offline-first synchronization</td><td>PostgreSQL concurrency</td></tr>
+<tr><td>Production failures</td><td>Business-process automation</td></tr>
+<tr><td>Building software inside a real SME</td><td>Engineering trade-offs</td></tr>
+</table>
 
 **Writing:** [aalokbhandari.com.np](#)
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Education
 
-**B.Sc. Computer Science and Information Technology**
+**B.Sc. Computer Science and Information Technology**<br>
 Madan Bhandari Memorial College · Tribhuvan University
 
 My academic background gives me the fundamentals; real business systems provide the constraints.
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Beyond Code
 
@@ -222,18 +231,26 @@ I come from a travel-business environment, so much of my engineering work starts
 
 That perspective shapes how I build:
 
-**Observe the workflow → understand the constraint → model the system → build → measure → improve.**
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/flow-method-dark.svg"><img src=".github/assets/flow-method-light.svg" alt="Observe the workflow → understand the constraint → model the system → build → measure → improve."></picture>
 
----
+<br>
+
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
 ## Connect
 
-**Website:** [aalokbhandari.com.np](#)
-**LinkedIn:** [Aalok Bhandari](#)
-**Email:** [Contact me](mailto:#)
+<table>
+<tr>
+<td><b>Website:</b><br><a href="#">aalokbhandari.com.np</a></td>
+<td><b>LinkedIn:</b><br><a href="#">Aalok Bhandari</a></td>
+<td><b>Email:</b><br><a href="mailto:#">Contact me</a></td>
+</tr>
+</table>
 
----
+<br>
 
-### Building systems, not collecting stacks.
+<img src=".github/assets/rule.svg" alt="" width="100%">
 
-*Last updated: August 2026*
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/signature-dark.svg"><img src=".github/assets/signature-light.svg" alt="Building systems, not collecting stacks." width="100%"></picture>
+
+<sub><i>Last updated: August 2026</i></sub>
