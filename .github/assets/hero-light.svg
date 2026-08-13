@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 236" width="880" height="236" role="img" aria-label="Aalok Bhandari — systems, PostgreSQL, financial correctness. A request travels from client to api to postgres to ledger, inside a transaction that begins and commits.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 236" width="880" height="236" role="img" aria-label="Aalok Bhandari — software developer, Postgres, business automation. A request travels from client to api to postgres to ledger, inside a transaction that begins and commits.">
   <style>
     .ink   { fill: #0A0E14; }
     .rule  { stroke: #0A0E14; }
@@ -60,7 +60,7 @@
   </style>
 
   <text class="ink name" x="0" y="42">Aalok Bhandari</text>
-  <text class="accentf tag" x="2" y="70">systems <tspan class="ink" fill-opacity=".3">·</tspan> postgresql <tspan class="ink" fill-opacity=".3">·</tspan> financial correctness</text>
+  <text class="accentf tag" x="2" y="70">software developer <tspan class="ink" fill-opacity=".3">·</tspan> postgres <tspan class="ink" fill-opacity=".3">·</tspan> business automation</text>
 
   <line class="rule rail" x1="155" y1="127" x2="235" y2="127"/>
   <line class="rule rail" x1="390" y1="127" x2="470" y2="127"/>

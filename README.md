@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.svg"><img src=".github/assets/hero-light.svg" alt="Aalok Bhandari — systems · postgresql · financial correctness"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.svg"><img src=".github/assets/hero-light.svg" alt="Aalok Bhandari — software developer · postgres · business automation"></picture>
 
 I build software for **messy real-world business processes**—the kind where correctness, data integrity, concurrency, and reliability matter more than having the newest framework.
 
@@ -16,37 +16,45 @@ My strongest work comes from building systems inside a real travel business, whe
 
 ## Stack
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/orbit-dark.svg"><img src=".github/assets/orbit-light.svg" alt="PostgreSQL, TypeScript and Node at the core, orbited by React, Next.js, Docker, Linux, Go, Java and Supabase"></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/orbit-dark.svg"><img src=".github/assets/orbit-light.svg" alt="PostgreSQL, TypeScript and Node at the core, orbited by React, Next.js, Supabase, Docker, Linux, Tailwind CSS and Vite"></picture></p>
 
 ## Featured Work
 
-### VAT Billing & Accounting System
+### [Kharcha](https://github.com/aalokbhandari/kharcha) &nbsp;·&nbsp; public
 
-A production-oriented billing and accounting platform built around the operational requirements of a real travel agency.
+Expense management and accounting application — expense tracking, vendor management and inventory control for small businesses.
 
-`PostgreSQL` · `TypeScript` · `Supabase` · `Multi-tenancy` · `RLS` · `Accounting` · `VAT`
+`TypeScript` · `React` · `Vite` · `Supabase`
 
-Multi-tenant database architecture with database-enforced security, financial transaction workflows, and VAT and billing logic running against real business data — designed around an actual operating business rather than a tutorial dataset, with production-oriented reliability and recovery.
+The clearest public example of what I mean by business systems: real accounting concepts, database-backed state, and authentication, rather than a CRUD demo.
 
-### Travora
+### VAT Billing & Accounting System &nbsp;·&nbsp; private
 
-A travel technology platform designed to modernize the workflow between travelers, travel businesses and digital travel services.
+A production billing and accounting platform built around the operational requirements of a real travel agency: multi-tenant architecture with database-enforced security, financial transaction workflows, and VAT and billing logic.
 
-`Next.js` · `TypeScript` · `PostgreSQL` · `Supabase` · `APIs`
+`PostgreSQL` · `Supabase` · `Multi-tenancy` · `RLS` · `Accounting` · `VAT`
 
-Modern full-stack architecture with structured travel workflows, database-backed application state and service-oriented design — built as a foundation for future travel automation.
+The repository is private because it holds live client financial data. I'm happy to walk through the schema, the tenancy model and the reconciliation logic.
 
-### STP Website
+### Travora &nbsp;·&nbsp; private
 
-A production web platform focused on performance, maintainability, responsive UX and modern frontend architecture.
+A travel technology platform designed to modernize the workflow between travelers, travel businesses and digital travel services — structured travel workflows, database-backed application state, service-oriented design.
 
-`Next.js` · `TypeScript` · `React` · `Tailwind CSS`
+`Next.js` · `TypeScript` · `PostgreSQL` · `Supabase`
+
+Private while in development.
+
+### [STP Website](https://github.com/aalokbhandari/STP-website) &nbsp;·&nbsp; public
+
+Multi-page website for Smart Trading Path — premium services, member watchlist, admin chart uploads, and user engagement with likes and comments.
+
+`PHP` · `MySQL` · `JavaScript` · `Google OAuth`
 
 ## Currently
 
 I'm deliberately going deeper rather than wider.
 
-**Engineering** — PostgreSQL internals and query performance · transactions and concurrency · distributed systems fundamentals · backend architecture · testing and correctness · Docker and Linux · CI/CD with GitHub Actions · AWS infrastructure · observability with logs, metrics and traces
+**Learning** — PostgreSQL internals and query performance · transactions and concurrency · distributed systems fundamentals · testing and correctness · CI/CD with GitHub Actions · AWS infrastructure · observability with logs, metrics and traces
 
 **Building** — I'm working toward turning software built for real business operations into reusable products for other businesses. The current direction is:
 
@@ -70,30 +78,16 @@ I'm deliberately going deeper rather than wider.
 
 ## Technical Focus
 
-| Area           | Current Focus                                       |
-| -------------- | --------------------------------------------------- |
-| Languages      | TypeScript · Java · SQL · Go                        |
-| Backend        | Node.js · REST APIs · Backend Architecture          |
-| Database       | **PostgreSQL** · Transactions · Indexing · RLS      |
-| Frontend       | React · Next.js                                     |
-| Infrastructure | Docker · Linux · AWS                                |
-| CI/CD          | GitHub Actions                                      |
-| Observability  | OpenTelemetry · Structured Logging · Metrics        |
-| Testing        | Integration · Concurrency · Property-based Testing  |
-| Systems        | Distributed Systems · Synchronization · Reliability |
-| Domain         | Travel Technology · Accounting · VAT · Compliance   |
+| Area       | Current Focus                                  |
+| ---------- | ---------------------------------------------- |
+| Database   | **PostgreSQL** · Transactions · Indexing · RLS |
+| Languages  | TypeScript · SQL                               |
+| Backend    | Node.js · REST APIs · Supabase                 |
+| Frontend   | React · Next.js · Tailwind CSS                 |
+| Tooling    | Docker · Linux · Git                           |
+| Domain     | Accounting · VAT · Travel Technology           |
 
-> Technologies I actively work with or am deliberately developing depth in—not every technology I have ever touched.
-
-## Open Source
-
-I believe meaningful open-source contribution is more valuable than maintaining an impressive-looking contribution graph. Over time, I aim to contribute production-quality fixes, features and documentation to projects in the systems I actually use.
-
-**Current areas of interest:** `PostgreSQL ecosystem`&nbsp; `Supabase ecosystem`&nbsp; `Developer tooling`&nbsp; `Document processing`&nbsp; `Business automation`
-
-## Writing
-
-I document things I actually build — database correctness · double-entry accounting systems · offline-first synchronization · PostgreSQL concurrency · production failures · business-process automation · building software inside a real SME · engineering trade-offs.
+> Per principle 05, this is only what I would defend in a technical interview today. Things I'm actively learning are listed under **Currently** instead.
 
 ## Education
 
