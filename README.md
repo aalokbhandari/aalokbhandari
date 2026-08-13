@@ -44,12 +44,6 @@ A travel technology platform designed to modernize the workflow between traveler
 
 Private while in development.
 
-### [STP Website](https://github.com/aalokbhandari/STP-website) &nbsp;·&nbsp; public
-
-Multi-page website for Smart Trading Path — premium services, member watchlist, admin chart uploads, and user engagement with likes and comments.
-
-`PHP` · `MySQL` · `JavaScript` · `Google OAuth`
-
 ## Currently
 
 I'm deliberately going deeper rather than wider.
