@@ -1,29 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 252" width="600" height="252" role="img" aria-label="Observe the workflow, understand the constraint, model the system, build, measure, improve.">
-  <rect width="600" height="252" fill="#FFFFFF"/>
-  <line x1="26" y1="26" x2="26" y2="226" stroke="#E3E8EF" stroke-width="1"/>
-  <line x1="254" y1="26" x2="562" y2="26" stroke="#C8D1DE" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="26" r="5.5" fill="#F7F9FC" stroke="#1D4ED8" stroke-width="1.6"/>
-  <text x="48" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#1F2937">Observe the workflow</text>
+  <line x1="26" y1="26" x2="26" y2="226" stroke="#E1E6ED" stroke-width="1"/>
+  <line x1="254" y1="26" x2="562" y2="26" stroke="#BFC8D6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="26" r="5.5" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
+  <text x="48" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">Observe the workflow</text>
   <text x="584" y="31" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">01</text>
-  <line x1="302" y1="66" x2="562" y2="66" stroke="#C8D1DE" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="66" r="5.5" fill="#F7F9FC" stroke="#1D4ED8" stroke-width="1.6"/>
-  <text x="48" y="72" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#1F2937">understand the constraint</text>
+  <line x1="302" y1="66" x2="562" y2="66" stroke="#BFC8D6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="66" r="5.5" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
+  <text x="48" y="72" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">understand the constraint</text>
   <text x="584" y="71" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">02</text>
-  <line x1="216" y1="106" x2="562" y2="106" stroke="#C8D1DE" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="106" r="5.5" fill="#F7F9FC" stroke="#1D4ED8" stroke-width="1.6"/>
-  <text x="48" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#1F2937">model the system</text>
+  <line x1="216" y1="106" x2="562" y2="106" stroke="#BFC8D6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="106" r="5.5" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
+  <text x="48" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">model the system</text>
   <text x="584" y="111" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">03</text>
-  <line x1="112" y1="146" x2="562" y2="146" stroke="#C8D1DE" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="146" r="5.5" fill="#F7F9FC" stroke="#1D4ED8" stroke-width="1.6"/>
-  <text x="48" y="152" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#1F2937">build</text>
+  <line x1="112" y1="146" x2="562" y2="146" stroke="#BFC8D6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="146" r="5.5" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
+  <text x="48" y="152" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">build</text>
   <text x="584" y="151" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">04</text>
-  <line x1="131" y1="186" x2="562" y2="186" stroke="#C8D1DE" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="186" r="5.5" fill="#F7F9FC" stroke="#1D4ED8" stroke-width="1.6"/>
-  <text x="48" y="192" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#1F2937">measure</text>
+  <line x1="131" y1="186" x2="562" y2="186" stroke="#BFC8D6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="186" r="5.5" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
+  <text x="48" y="192" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">measure</text>
   <text x="584" y="191" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">05</text>
-  <line x1="140" y1="226" x2="562" y2="226" stroke="#C8D1DE" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="226" r="5.5" fill="#F7F9FC" stroke="#1D4ED8" stroke-width="1.6"/>
-  <circle cx="26" cy="226" r="2.4" fill="#0F766E"/>
-  <text x="48" y="232" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#1F2937">improve.</text>
+  <line x1="140" y1="226" x2="562" y2="226" stroke="#BFC8D6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
+  <circle cx="26" cy="226" r="5.5" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
+  <circle cx="26" cy="226" r="2.4" fill="#12A093"/>
+  <text x="48" y="232" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">improve.</text>
   <text x="584" y="231" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">06</text>
 </svg>

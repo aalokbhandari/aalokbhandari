@@ -102,13 +102,13 @@ I'm working toward turning software built for real business operations into **re
 
 The current direction is:
 
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/flow-product-dark.svg"><img src=".github/assets/flow-product-light.svg" alt="Real business problem → production system → measurable result → reusable product"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/flow-product-dark.svg"><img src=".github/assets/flow-product-light.svg" alt="Real business problem → production system → measurable result → reusable product" width="100%"></picture>
 
 ### Research
 
 I'm interested in the intersection of:
 
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/intersect-research-dark.svg"><img src=".github/assets/intersect-research-light.svg" alt="business-process digitisation × databases × distributed systems × financial correctness"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/intersect-research-dark.svg"><img src=".github/assets/intersect-research-light.svg" alt="business-process digitisation × databases × distributed systems × financial correctness" width="100%"></picture>
 
 <br>
 
@@ -231,7 +231,7 @@ I come from a travel-business environment, so much of my engineering work starts
 
 That perspective shapes how I build:
 
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/flow-method-dark.svg"><img src=".github/assets/flow-method-light.svg" alt="Observe the workflow → understand the constraint → model the system → build → measure → improve."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/flow-method-dark.svg"><img src=".github/assets/flow-method-light.svg" alt="Observe the workflow → understand the constraint → model the system → build → measure → improve." width="100%"></picture>
 
 <br>
 
