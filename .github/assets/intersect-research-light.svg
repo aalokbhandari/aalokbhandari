@@ -1,17 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 176" width="600" height="176" role="img" aria-label="business-process digitisation x databases x distributed systems x financial correctness">
-  <line x1="296" y1="26" x2="296" y2="158" stroke="#E1E6ED" stroke-width="1"/>
-  <path d="M302,37 C382,37 420,84 496.7,84" fill="none" stroke="#E1E6ED" stroke-width="1.2"/>
-  <text x="8" y="42" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">business-process digitisation</text>
-  <circle cx="296" cy="37" r="3.2" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.5"/>
-  <path d="M302,73 C382,73 420,92 494.3,92" fill="none" stroke="#E1E6ED" stroke-width="1.2"/>
-  <text x="8" y="78" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">databases</text>
-  <circle cx="296" cy="73" r="3.2" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.5"/>
-  <path d="M302,109 C382,109 420,100 494.3,100" fill="none" stroke="#E1E6ED" stroke-width="1.2"/>
-  <text x="8" y="114" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">distributed systems</text>
-  <circle cx="296" cy="109" r="3.2" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.5"/>
-  <path d="M302,145 C382,145 420,108 496.7,108" fill="none" stroke="#E1E6ED" stroke-width="1.2"/>
-  <text x="8" y="150" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">financial correctness</text>
-  <circle cx="296" cy="145" r="3.2" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.5"/>
-  <circle cx="520" cy="96" r="28" fill="#F4F7FA" stroke="#E1E6ED" stroke-width="1.5"/>
-  <path d="M512,88 L528,104 M528,88 L512,104" stroke="#4B7BE5" stroke-width="2" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 212" width="880" height="212" role="img" aria-label="Business-process digitisation, databases, distributed systems and financial correctness converging on one focus.">
+  <style>
+    .ink { fill: #0A0E14; } .rule { stroke: #0A0E14; }
+    .accentf { fill: #0E7490; } .accent { stroke: #0E7490; }
+    .lbl { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+           font-size: 17px; font-weight: 500; fill-opacity: .92; }
+    .wire { stroke-opacity: .15; stroke-width: 1.2; }
+    .spine{ stroke-opacity: .13; stroke-width: 1; }
+    .node { stroke-opacity: .45; stroke-width: 1.5; }
+    .core { stroke-opacity: .30; stroke-width: 1.4; }
+
+    .flow { stroke-width: 2; stroke-linecap: round; stroke-dasharray: 5 345;
+            animation: flow 3.2s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 350; } to { stroke-dashoffset: 0; } }
+
+    .halo { animation: halo 3.2s ease-out infinite; }
+    @keyframes halo {
+      0%   { r: 30; stroke-opacity: .55; }
+      70%  { r: 44; stroke-opacity: 0; }
+      100% { r: 44; stroke-opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .flow { animation: none; stroke-dasharray: none; stroke-opacity: .5; }
+      .halo { animation: none; stroke-opacity: 0; }
+    }
+  </style>
+
+  <line class="rule spine" x1="430" y1="28" x2="430" y2="178"/>
+
+  <path class="rule wire" fill="none" d="M438,40  C560,40  620,110 768,110"/>
+  <path class="rule wire" fill="none" d="M438,82  C560,82  620,110 768,110"/>
+  <path class="rule wire" fill="none" d="M438,124 C560,124 620,110 768,110"/>
+  <path class="rule wire" fill="none" d="M438,166 C560,166 620,110 768,110"/>
+
+  <path class="accent flow" fill="none" d="M438,40  C560,40  620,110 768,110" style="animation-delay:0s"/>
+  <path class="accent flow" fill="none" d="M438,82  C560,82  620,110 768,110" style="animation-delay:.8s"/>
+  <path class="accent flow" fill="none" d="M438,124 C560,124 620,110 768,110" style="animation-delay:1.6s"/>
+  <path class="accent flow" fill="none" d="M438,166 C560,166 620,110 768,110" style="animation-delay:2.4s"/>
+
+  <text class="ink lbl" x="0" y="46">business-process digitisation</text>
+  <text class="ink lbl" x="0" y="88">databases</text>
+  <text class="ink lbl" x="0" y="130">distributed systems</text>
+  <text class="ink lbl" x="0" y="172">financial correctness</text>
+
+  <circle class="accent node" fill="none" cx="430" cy="40"  r="3.4"/>
+  <circle class="accent node" fill="none" cx="430" cy="82"  r="3.4"/>
+  <circle class="accent node" fill="none" cx="430" cy="124" r="3.4"/>
+  <circle class="accent node" fill="none" cx="430" cy="166" r="3.4"/>
+
+  <circle class="accent halo" fill="none" cx="800" cy="110" r="30"/>
+  <circle class="rule core" fill="none" cx="800" cy="110" r="30"/>
+  <circle class="accentf" cx="800" cy="110" r="5"/>
 </svg>

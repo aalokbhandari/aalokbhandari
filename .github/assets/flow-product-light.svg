@@ -1,28 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 112" width="600" height="112" role="img" aria-label="Real business problem to production system to measurable result to reusable product">
-  <line x1="83" y1="40" x2="143" y2="40" stroke="#E1E6ED" stroke-width="1.2"/>
-  <path d="M147,35.5 L152,40 L147,44.5" fill="none" stroke="#8A94A5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="157" y1="40" x2="217" y2="40" stroke="#E1E6ED" stroke-width="1.2"/>
-  <line x1="233" y1="40" x2="293" y2="40" stroke="#E1E6ED" stroke-width="1.2"/>
-  <path d="M297,35.5 L302,40 L297,44.5" fill="none" stroke="#8A94A5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="307" y1="40" x2="367" y2="40" stroke="#E1E6ED" stroke-width="1.2"/>
-  <line x1="383" y1="40" x2="443" y2="40" stroke="#E1E6ED" stroke-width="1.2"/>
-  <path d="M447,35.5 L452,40 L447,44.5" fill="none" stroke="#8A94A5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="457" y1="40" x2="517" y2="40" stroke="#E1E6ED" stroke-width="1.2"/>
-  <circle cx="75" cy="40" r="6" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
-  <text x="75" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">01</text>
-  <text x="75" y="72" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">Real business</text>
-  <text x="75" y="92" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">problem</text>
-  <circle cx="225" cy="40" r="6" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
-  <text x="225" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">02</text>
-  <text x="225" y="72" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">production</text>
-  <text x="225" y="92" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">system</text>
-  <circle cx="375" cy="40" r="6" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
-  <text x="375" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">03</text>
-  <text x="375" y="72" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">measurable</text>
-  <text x="375" y="92" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">result</text>
-  <circle cx="525" cy="40" r="6" fill="#F4F7FA" stroke="#4B7BE5" stroke-width="1.6"/>
-  <circle cx="525" cy="40" r="2.6" fill="#12A093"/>
-  <text x="525" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#8A94A5">04</text>
-  <text x="525" y="72" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">reusable</text>
-  <text x="525" y="92" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#5B6579">product</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 116" width="880" height="116" role="img" aria-label="Real business problem, to production system, to measurable result, to reusable product.">
+  <style>
+    .ink { fill: #0A0E14; } .rule { stroke: #0A0E14; }
+    .accentf { fill: #0E7490; } .accent { stroke: #0E7490; }
+    .num  { font-family: ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+            font-size: 11px; letter-spacing: 1.4px; fill-opacity: .85; }
+    .lbl  { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 16px; font-weight: 500; fill-opacity: .92; }
+    .rail { stroke-opacity: .16; stroke-width: 1.2; }
+    .ring { stroke-opacity: .28; stroke-width: 1.4; }
+    .seg  { stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 200; stroke-dashoffset: 200;
+            animation: seg 6s ease-in-out infinite; }
+    .dot  { transform-box: fill-box; transform-origin: center; opacity: 0; animation: dot 6s ease-in-out infinite; }
+    @keyframes seg {
+      0%, 4%   { stroke-dashoffset: 200; opacity: 1; }
+      16%      { stroke-dashoffset: 0;   opacity: 1; }
+      88%      { stroke-dashoffset: 0;   opacity: 1; }
+      96%,100% { stroke-dashoffset: 0;   opacity: 0; }
+    }
+    @keyframes dot {
+      0%, 2%   { opacity: 0; transform: scale(.2); }
+      9%       { opacity: 1; transform: scale(1); }
+      88%      { opacity: 1; transform: scale(1); }
+      96%,100% { opacity: 0; transform: scale(1); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .seg { animation: none; stroke-dashoffset: 0; }
+      .dot { animation: none; opacity: 1; transform: none; }
+    }
+  </style>
+
+  <line class="rule rail" x1="116" y1="46" x2="324" y2="46"/>
+  <line class="rule rail" x1="336" y1="46" x2="544" y2="46"/>
+  <line class="rule rail" x1="556" y1="46" x2="764" y2="46"/>
+
+  <line class="accent seg" x1="116" y1="46" x2="324" y2="46" style="animation-delay:0s"/>
+  <line class="accent seg" x1="336" y1="46" x2="544" y2="46" style="animation-delay:.75s"/>
+  <line class="accent seg" x1="556" y1="46" x2="764" y2="46" style="animation-delay:1.5s"/>
+
+  <circle class="rule ring" fill="none" cx="110" cy="46" r="7"/>
+  <circle class="rule ring" fill="none" cx="330" cy="46" r="7"/>
+  <circle class="rule ring" fill="none" cx="550" cy="46" r="7"/>
+  <circle class="rule ring" fill="none" cx="770" cy="46" r="7"/>
+
+  <circle class="accentf dot" cx="110" cy="46" r="3.6" style="animation-delay:0s"/>
+  <circle class="accentf dot" cx="330" cy="46" r="3.6" style="animation-delay:.75s"/>
+  <circle class="accentf dot" cx="550" cy="46" r="3.6" style="animation-delay:1.5s"/>
+  <circle class="accentf dot" cx="770" cy="46" r="3.6" style="animation-delay:2.25s"/>
+
+  <text class="accentf num" x="110" y="18" text-anchor="middle">01</text>
+  <text class="accentf num" x="330" y="18" text-anchor="middle">02</text>
+  <text class="accentf num" x="550" y="18" text-anchor="middle">03</text>
+  <text class="accentf num" x="770" y="18" text-anchor="middle">04</text>
+
+  <text class="ink lbl" x="110" y="82"  text-anchor="middle">real business</text>
+  <text class="ink lbl" x="110" y="102" text-anchor="middle">problem</text>
+  <text class="ink lbl" x="330" y="82"  text-anchor="middle">production</text>
+  <text class="ink lbl" x="330" y="102" text-anchor="middle">system</text>
+  <text class="ink lbl" x="550" y="82"  text-anchor="middle">measurable</text>
+  <text class="ink lbl" x="550" y="102" text-anchor="middle">result</text>
+  <text class="ink lbl" x="770" y="82"  text-anchor="middle">reusable</text>
+  <text class="ink lbl" x="770" y="102" text-anchor="middle">product</text>
 </svg>

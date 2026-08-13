@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 56" width="600" height="56" role="img" aria-label="Building systems, not collecting stacks.">
-  <circle cx="552" cy="10" r="1.1" fill="#3B4450"/>
-  <circle cx="552" cy="22" r="1.1" fill="#3B4450"/>
-  <circle cx="552" cy="34" r="1.1" fill="#3B4450"/>
-  <circle cx="564" cy="10" r="1.1" fill="#3B4450"/>
-  <circle cx="564" cy="22" r="1.1" fill="#3B4450"/>
-  <circle cx="564" cy="34" r="1.1" fill="#3B4450"/>
-  <circle cx="576" cy="10" r="1.1" fill="#3B4450"/>
-  <circle cx="576" cy="22" r="1.1" fill="#3B4450"/>
-  <circle cx="576" cy="34" r="1.1" fill="#3B4450"/>
-  <circle cx="588" cy="10" r="1.1" fill="#3B4450"/>
-  <circle cx="588" cy="22" r="1.1" fill="#3B4450"/>
-  <circle cx="588" cy="34" r="1.1" fill="#3B4450"/>
-  <g transform="translate(0,14) scale(0.5384615384615384)">
-    <rect x="0.75" y="0.75" width="50.5" height="50.5" rx="13" fill="#141A22" stroke="#262C35" stroke-width="1.5"/>
-    <rect x="13" y="14" width="26" height="3.6" rx="1.8" fill="#3B4450"/>
-    <rect x="13" y="24.2" width="26" height="3.6" rx="1.8" fill="#3B4450"/>
-    <rect x="13" y="34.4" width="26" height="3.6" rx="1.8" fill="#3B4450"/>
-    <rect x="13" y="24.2" width="14.5" height="3.6" rx="1.8" fill="#4B7BE5"/>
-  </g>
-  <text x="44" y="34" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="-0.2" fill="#E9EEF5">Building systems, not collecting stacks.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 64" width="880" height="64" role="img" aria-label="Building systems, not collecting stacks.">
+  <style>
+    .ink { fill: #FFFFFF; } .rule { stroke: #FFFFFF; }
+    .accentf { fill: #22D3EE; } .accent { stroke: #22D3EE; }
+    .sig { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+           font-size: 19px; font-weight: 600; letter-spacing: -0.2px; fill-opacity: .92; }
+    .hair { stroke-opacity: .14; stroke-width: 1; }
+    .tip  { stroke-width: 2; stroke-linecap: round; stroke-dasharray: 56; stroke-dashoffset: 56;
+            animation: tip 5s ease-in-out infinite; }
+    @keyframes tip {
+      0%, 6%   { stroke-dashoffset: 56; }
+      22%      { stroke-dashoffset: 0; }
+      84%      { stroke-dashoffset: 0; opacity: 1; }
+      94%,100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .tip { animation: none; stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <line class="rule hair" x1="0" y1="10" x2="880" y2="10"/>
+  <line class="accent tip" x1="0" y1="10" x2="56" y2="10"/>
+
+  <text class="ink sig" x="0" y="44">Building systems, <tspan class="accentf">not collecting stacks.</tspan></text>
 </svg>

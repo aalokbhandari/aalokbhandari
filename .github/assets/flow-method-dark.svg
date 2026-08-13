@@ -1,28 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 252" width="600" height="252" role="img" aria-label="Observe the workflow, understand the constraint, model the system, build, measure, improve.">
-  <line x1="26" y1="26" x2="26" y2="226" stroke="#262C35" stroke-width="1"/>
-  <line x1="254" y1="26" x2="562" y2="26" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="26" r="5.5" fill="#141A22" stroke="#4B7BE5" stroke-width="1.6"/>
-  <text x="48" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#8B97A8">Observe the workflow</text>
-  <text x="584" y="31" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#6F7B8A">01</text>
-  <line x1="302" y1="66" x2="562" y2="66" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="66" r="5.5" fill="#141A22" stroke="#4B7BE5" stroke-width="1.6"/>
-  <text x="48" y="72" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#8B97A8">understand the constraint</text>
-  <text x="584" y="71" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#6F7B8A">02</text>
-  <line x1="216" y1="106" x2="562" y2="106" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="106" r="5.5" fill="#141A22" stroke="#4B7BE5" stroke-width="1.6"/>
-  <text x="48" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#8B97A8">model the system</text>
-  <text x="584" y="111" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#6F7B8A">03</text>
-  <line x1="112" y1="146" x2="562" y2="146" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="146" r="5.5" fill="#141A22" stroke="#4B7BE5" stroke-width="1.6"/>
-  <text x="48" y="152" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#8B97A8">build</text>
-  <text x="584" y="151" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#6F7B8A">04</text>
-  <line x1="131" y1="186" x2="562" y2="186" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="186" r="5.5" fill="#141A22" stroke="#4B7BE5" stroke-width="1.6"/>
-  <text x="48" y="192" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#8B97A8">measure</text>
-  <text x="584" y="191" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#6F7B8A">05</text>
-  <line x1="140" y1="226" x2="562" y2="226" stroke="#3B4450" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="0.5 6"/>
-  <circle cx="26" cy="226" r="5.5" fill="#141A22" stroke="#4B7BE5" stroke-width="1.6"/>
-  <circle cx="26" cy="226" r="2.4" fill="#12A093"/>
-  <text x="48" y="232" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500" fill="#8B97A8">improve.</text>
-  <text x="584" y="231" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#6F7B8A">06</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 268" width="880" height="268" role="img" aria-label="Observe the workflow, understand the constraint, model the system, build, measure, improve.">
+  <style>
+    .ink { fill: #FFFFFF; } .rule { stroke: #FFFFFF; }
+    .accentf { fill: #22D3EE; } .accent { stroke: #22D3EE; }
+    .lbl { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+           font-size: 17px; font-weight: 500; fill-opacity: .92; }
+    .num { font-family: ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+           font-size: 11px; letter-spacing: 1.4px; fill-opacity: .80; }
+    .spine  { stroke-opacity: .13; stroke-width: 1; }
+    .leader { stroke-opacity: .22; stroke-width: 1.2; stroke-linecap: round; stroke-dasharray: 0.5 6; }
+    .ring   { stroke-opacity: .40; stroke-width: 1.5; }
+    .step { transform-box: fill-box; transform-origin: center; opacity: 0;
+            animation: step 6s ease-in-out infinite; }
+    @keyframes step {
+      0%, 3%   { opacity: 0; transform: scale(.3); }
+      9%       { opacity: 1; transform: scale(1); }
+      82%      { opacity: 1; transform: scale(1); }
+      92%,100% { opacity: 0; transform: scale(1); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .step { animation: none; opacity: 1; transform: none; }
+    }
+  </style>
+
+  <line class="rule spine" x1="7" y1="26" x2="7" y2="246"/>
+
+  <circle class="rule ring" fill="none" cx="7" cy="26"  r="6"/>
+  <circle class="rule ring" fill="none" cx="7" cy="70"  r="6"/>
+  <circle class="rule ring" fill="none" cx="7" cy="114" r="6"/>
+  <circle class="rule ring" fill="none" cx="7" cy="158" r="6"/>
+  <circle class="rule ring" fill="none" cx="7" cy="202" r="6"/>
+  <circle class="rule ring" fill="none" cx="7" cy="246" r="6"/>
+
+  <circle class="accentf step" cx="7" cy="26"  r="3.2" style="animation-delay:0s"/>
+  <circle class="accentf step" cx="7" cy="70"  r="3.2" style="animation-delay:.34s"/>
+  <circle class="accentf step" cx="7" cy="114" r="3.2" style="animation-delay:.68s"/>
+  <circle class="accentf step" cx="7" cy="158" r="3.2" style="animation-delay:1.02s"/>
+  <circle class="accentf step" cx="7" cy="202" r="3.2" style="animation-delay:1.36s"/>
+  <circle class="accentf step" cx="7" cy="246" r="3.2" style="animation-delay:1.70s"/>
+
+  <text class="ink lbl" x="30" y="32">observe the workflow</text>
+  <text class="ink lbl" x="30" y="76">understand the constraint</text>
+  <text class="ink lbl" x="30" y="120">model the system</text>
+  <text class="ink lbl" x="30" y="164">build</text>
+  <text class="ink lbl" x="30" y="208">measure</text>
+  <text class="ink lbl" x="30" y="252">improve</text>
+
+  <line class="rule leader" x1="266" y1="26"  x2="846" y2="26"/>
+  <line class="rule leader" x1="266" y1="70"  x2="846" y2="70"/>
+  <line class="rule leader" x1="266" y1="114" x2="846" y2="114"/>
+  <line class="rule leader" x1="266" y1="158" x2="846" y2="158"/>
+  <line class="rule leader" x1="266" y1="202" x2="846" y2="202"/>
+  <line class="rule leader" x1="266" y1="246" x2="846" y2="246"/>
+
+  <text class="accentf num" x="876" y="30"  text-anchor="end">01</text>
+  <text class="accentf num" x="876" y="74"  text-anchor="end">02</text>
+  <text class="accentf num" x="876" y="118" text-anchor="end">03</text>
+  <text class="accentf num" x="876" y="162" text-anchor="end">04</text>
+  <text class="accentf num" x="876" y="206" text-anchor="end">05</text>
+  <text class="accentf num" x="876" y="250" text-anchor="end">06</text>
 </svg>

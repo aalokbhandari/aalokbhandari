@@ -1,34 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 144" width="600" height="144" role="img" aria-label="Aalok Bhandari - Software Engineer, Systems, PostgreSQL, Business Automation">
-  <circle cx="516" cy="12" r="1.1" fill="#BFC8D6"/>
-  <circle cx="516" cy="24" r="1.1" fill="#BFC8D6"/>
-  <circle cx="516" cy="36" r="1.1" fill="#BFC8D6"/>
-  <circle cx="528" cy="12" r="1.1" fill="#BFC8D6"/>
-  <circle cx="528" cy="24" r="1.1" fill="#BFC8D6"/>
-  <circle cx="528" cy="36" r="1.1" fill="#BFC8D6"/>
-  <circle cx="540" cy="12" r="1.1" fill="#BFC8D6"/>
-  <circle cx="540" cy="24" r="1.1" fill="#BFC8D6"/>
-  <circle cx="540" cy="36" r="1.1" fill="#BFC8D6"/>
-  <circle cx="552" cy="12" r="1.1" fill="#BFC8D6"/>
-  <circle cx="552" cy="24" r="1.1" fill="#BFC8D6"/>
-  <circle cx="552" cy="36" r="1.1" fill="#BFC8D6"/>
-  <circle cx="564" cy="12" r="1.1" fill="#BFC8D6"/>
-  <circle cx="564" cy="24" r="1.1" fill="#BFC8D6"/>
-  <circle cx="564" cy="36" r="1.1" fill="#BFC8D6"/>
-  <circle cx="576" cy="12" r="1.1" fill="#BFC8D6"/>
-  <circle cx="576" cy="24" r="1.1" fill="#BFC8D6"/>
-  <circle cx="576" cy="36" r="1.1" fill="#BFC8D6"/>
-  <circle cx="588" cy="12" r="1.1" fill="#BFC8D6"/>
-  <circle cx="588" cy="24" r="1.1" fill="#BFC8D6"/>
-  <circle cx="588" cy="36" r="1.1" fill="#BFC8D6"/>
-  <g transform="translate(0,20) scale(1)">
-    <rect x="0.75" y="0.75" width="50.5" height="50.5" rx="13" fill="#F4F7FA" stroke="#E1E6ED" stroke-width="1.5"/>
-    <rect x="13" y="14" width="26" height="3.6" rx="1.8" fill="#BFC8D6"/>
-    <rect x="13" y="24.2" width="26" height="3.6" rx="1.8" fill="#BFC8D6"/>
-    <rect x="13" y="34.4" width="26" height="3.6" rx="1.8" fill="#BFC8D6"/>
-    <rect x="13" y="24.2" width="14.5" height="3.6" rx="1.8" fill="#4B7BE5"/>
-  </g>
-  <text x="68" y="58" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" letter-spacing="-0.4" fill="#0B1220">Aalok Bhandari</text>
-  <text x="0" y="100" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#5B6579">Software Engineer <tspan fill="#BFC8D6">·</tspan> Systems <tspan fill="#BFC8D6">·</tspan> PostgreSQL <tspan fill="#BFC8D6">·</tspan> Business Automation</text>
-  <line x1="0" y1="124" x2="600" y2="124" stroke="#E1E6ED" stroke-width="1"/>
-  <line x1="1" y1="124" x2="44" y2="124" stroke="#4B7BE5" stroke-width="2" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 236" width="880" height="236" role="img" aria-label="Aalok Bhandari — systems, PostgreSQL, financial correctness. A request travels from client to api to postgres to ledger, inside a transaction that begins and commits.">
+  <style>
+    .ink   { fill: #0A0E14; }
+    .rule  { stroke: #0A0E14; }
+    .fillbox { fill: #0A0E14; fill-opacity: .035; }
+    .accent  { stroke: #0E7490; }
+    .accentf { fill: #0E7490; }
+
+    .name { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 38px; font-weight: 700; letter-spacing: -0.8px; fill-opacity: .93; }
+    .tag  { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 15px; font-weight: 500; letter-spacing: .2px; fill-opacity: .95; }
+    .node { font-family: ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+            font-size: 13px; letter-spacing: .4px; fill-opacity: .95; }
+    .txn  { font-family: ui-monospace, SFMono-Regular, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+            font-size: 11px; letter-spacing: 1.4px; }
+
+    .box   { stroke-opacity: .18; stroke-width: 1.2; }
+    .rail  { stroke-opacity: .16; stroke-width: 1.2; }
+    .tick  { stroke-opacity: .34; stroke-width: 1.4; }
+
+    .glow  { stroke-width: 1.6; opacity: 0; animation: glow 5s linear infinite; }
+    .packet{ animation: travel 5s linear infinite; }
+    .draw  { stroke: #0E7490; stroke-width: 2; stroke-linecap: round;
+             stroke-dasharray: 860; stroke-dashoffset: 860; animation: draw 5s linear infinite; }
+    .commit{ animation: commit 5s linear infinite; }
+
+    @keyframes travel {
+      0%   { transform: translateX(0px);   opacity: 0; }
+      4%   { transform: translateX(38px);  opacity: 1; }
+      74%  { transform: translateX(860px); opacity: 1; }
+      82%  { transform: translateX(860px); opacity: 0; }
+      100% { transform: translateX(860px); opacity: 0; }
+    }
+    @keyframes glow {
+      0%   { opacity: 0; }
+      5%   { opacity: 1; }
+      15%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes draw {
+      0%   { stroke-dashoffset: 860; opacity: 1; }
+      74%  { stroke-dashoffset: 0;   opacity: 1; }
+      92%  { stroke-dashoffset: 0;   opacity: 1; }
+      99%  { stroke-dashoffset: 0;   opacity: 0; }
+      100% { stroke-dashoffset: 860; opacity: 0; }
+    }
+    @keyframes commit {
+      0%, 72% { fill-opacity: .45; }
+      78%     { fill-opacity: 1; }
+      92%     { fill-opacity: 1; }
+      100%    { fill-opacity: .45; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .glow, .packet, .draw, .commit { animation: none; }
+      .packet { opacity: 1; transform: translateX(860px); }
+      .draw   { stroke-dashoffset: 0; }
+      .commit { fill-opacity: 1; }
+    }
+  </style>
+
+  <text class="ink name" x="0" y="42">Aalok Bhandari</text>
+  <text class="accentf tag" x="2" y="70">systems <tspan class="ink" fill-opacity=".3">·</tspan> postgresql <tspan class="ink" fill-opacity=".3">·</tspan> financial correctness</text>
+
+  <line class="rule rail" x1="155" y1="127" x2="235" y2="127"/>
+  <line class="rule rail" x1="390" y1="127" x2="470" y2="127"/>
+  <line class="rule rail" x1="625" y1="127" x2="705" y2="127"/>
+  <path class="rule tick" d="M224,122 L230,127 L224,132" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="rule tick" d="M459,122 L465,127 L459,132" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="rule tick" d="M694,122 L700,127 L694,132" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect class="fillbox" x="0.6"   y="104.6" width="153.8" height="44.8" rx="9"/>
+  <rect class="fillbox" x="235.6" y="104.6" width="153.8" height="44.8" rx="9"/>
+  <rect class="fillbox" x="470.6" y="104.6" width="153.8" height="44.8" rx="9"/>
+  <rect class="fillbox" x="705.6" y="104.6" width="153.8" height="44.8" rx="9"/>
+
+  <rect class="rule box" fill="none" x="0.6"   y="104.6" width="153.8" height="44.8" rx="9"/>
+  <rect class="rule box" fill="none" x="235.6" y="104.6" width="153.8" height="44.8" rx="9"/>
+  <rect class="rule box" fill="none" x="470.6" y="104.6" width="153.8" height="44.8" rx="9"/>
+  <rect class="rule box" fill="none" x="705.6" y="104.6" width="153.8" height="44.8" rx="9"/>
+
+  <rect class="accent glow" fill="none" x="0.6"   y="104.6" width="153.8" height="44.8" rx="9" style="animation-delay:0.12s"/>
+  <rect class="accent glow" fill="none" x="235.6" y="104.6" width="153.8" height="44.8" rx="9" style="animation-delay:1.12s"/>
+  <rect class="accent glow" fill="none" x="470.6" y="104.6" width="153.8" height="44.8" rx="9" style="animation-delay:2.12s"/>
+  <rect class="accent glow" fill="none" x="705.6" y="104.6" width="153.8" height="44.8" rx="9" style="animation-delay:3.12s"/>
+
+  <text class="accentf node" x="77.5"  y="132" text-anchor="middle">client</text>
+  <text class="accentf node" x="312.5" y="132" text-anchor="middle">api</text>
+  <text class="accentf node" x="547.5" y="132" text-anchor="middle">postgres</text>
+  <text class="accentf node" x="782.5" y="132" text-anchor="middle">ledger</text>
+
+  <circle class="accentf packet" cx="0" cy="127" r="3.4"/>
+
+  <line class="rule rail" x1="0" y1="192" x2="860" y2="192"/>
+  <line class="draw" x1="0" y1="192" x2="860" y2="192"/>
+
+  <text class="ink txn" x="0" y="214" fill-opacity=".48">BEGIN</text>
+  <text class="accentf txn commit" x="860" y="214" text-anchor="end">COMMIT</text>
 </svg>
