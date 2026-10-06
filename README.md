@@ -4,6 +4,8 @@ I build software for **messy real-world business processes**—high-compliance f
 
 I joined my father's two-person travel agency straight out of high school in 2022. It ran on Excel sheets, paper ledgers and manual ticket tracking, so I used the company as a live testbed while carrying a full B.Sc. CSIT course load. Most of what follows came out of that.
 
+**Latest:** I led Team 4NF to win **MBMC IdeaX 2026** with [Bhada](https://www.aalokbhandari.com.np/projects/bhada), bus fares for Kathmandu that are paid with no signal on the bus. In August the same team took **Best Presentation** at MBMC HackFest 2026 with [NiryatHub](https://www.aalokbhandari.com.np/projects/niryat-hub).
+
 > **If I claim I built it, the repository should be able to prove it.**
 
 ## Evidence
@@ -16,10 +18,28 @@ Numbers measured on the systems themselves, not estimates. Each one is shown its
 | **296** | headless assertions across seven suites, written without a test framework |
 | **1** | deployment serving every client, isolated by database row-level security |
 | **4** | systems a stranger can open right now, without an account |
+| **2** | hackathon awards in 2026: winner of MBMC IdeaX, Best Presentation at MBMC HackFest |
 
 ## Featured Work
 
-### VAT Billing System &nbsp;·&nbsp; live, private repository
+### [Bhada](https://github.com/MBMC-IdeaX/4NF) &nbsp;·&nbsp; Winner, MBMC IdeaX 2026
+
+**Scan in. Scan out. Fare settled, even in airplane mode.** Kathmandu buses lose signal under every flyover, so Bhada makes the stage fares the buses already charge payable with no internet. The rider shows one signed QR, the conductor scans it getting on and getting off, the fare is priced from the stage table and receipted on the bus, and it settles exactly once on Postgres when either phone finds signal.
+
+<a href="https://www.aalokbhandari.com.np/projects/bhada"><img src=".github/assets/bhada-brag.jpg" alt="Bhada launch film frame: Signal back. Settled once. The rider's phone shows Rs 25 paid, the conductor's phone its scan button, the cloud's four checks before a rupee moves, and the owner's total for today." width="100%"></a>
+
+Won the 4th national IdeaX hackathon at Madan Bhandari Memorial College: 48 hours, 20 finalist teams from 160 registrations across 28 institutions. I led Team 4NF with Firoz Paudel and Bidhan Thapaliya.
+
+- **Five apps, one backend** — rider, conductor, owner, staff and the public site as installable PWAs on one Supabase project.
+- **Twelve Ed25519-signed QR formats** — ride codes, boarding passes, receipts, cash tickets, concession cards, each verified offline where it lands.
+- **Money moves once** — PostgreSQL settles a ride only with the rider's own signed tap; a receipt sent twice is a replay. Bhada never holds funds; eSewa does.
+- **Proven, not claimed** — five proof scripts gate every deploy, plus 89 unit tests and a 60+ check browser journey that runs one ride through all four network cases.
+
+`React 19` · `Vite` · `PWA` · `Supabase` · `PostgreSQL` · `Edge Functions` · `IndexedDB` · `Ed25519` · `PGlite` · `eSewa` · `Raspberry Pi`
+
+[Live app](https://bhada-one.vercel.app) · [3-minute demo](https://bhada-one.vercel.app/demo) · [Case study](https://www.aalokbhandari.com.np/projects/bhada)
+
+### VAT Billing System &nbsp;·&nbsp; in production, private repository
 
 Double-entry VAT accounting for Nepali ticketing agencies. Every sales invoice is filed with the Inland Revenue Department as it is issued, an issued invoice can never be edited afterwards, and one deployment serves every client — isolated by twelve PostgreSQL row-level-security policies keyed to the tenant ID inside the caller's signed token.
 
@@ -27,11 +47,27 @@ Double-entry VAT accounting for Nepali ticketing agencies. Every sales invoice i
 
 The framework-free core has no DOM dependencies, so it is testable under Node. The client keeps working with the connection down: IndexedDB holds the working copy plus an outbox, and sync pushes before it pulls, never the other way round. The repository is private because it holds live client financial data — [case study and walkthrough](https://www.aalokbhandari.com.np/projects/vat-billing-system).
 
-### [NiryatHub](https://github.com/aalokbhandari/niryat-hub) &nbsp;·&nbsp; public
+### [NiryatHub](https://github.com/aalokbhandari/niryat-hub) &nbsp;·&nbsp; Best Presentation, MBMC HackFest 2026
 
-Hackfest 2026 prototype, team 4 NF. Takes a Nepali producer from one spoken sentence to a filed commercial invoice — scoring ten destination markets, matching importers, assembling the compliance checklist, costing the corridor out of a landlocked country, and raising the invoice.
+**Nepal does not have an export-product problem. It has an export-access problem.** NiryatHub takes a Nepali producer from one spoken sentence to a filed commercial invoice — scoring ten destination markets, matching importers, assembling the compliance checklist, costing the corridor out of a landlocked country, and raising the invoice.
 
-`Next.js 15` · `React 19` · `TypeScript`
+<table>
+<tr>
+<td width="50%"><a href="https://niryat-hub.vercel.app"><img src=".github/assets/niryathub-results.jpg" alt="NiryatHub market ranking: Germany scores 87 for large cardamom, beside all ten markets and their scores"></a></td>
+<td width="50%"><a href="https://niryat-hub.vercel.app"><img src=".github/assets/niryathub-route.jpg" alt="NiryatHub route planner: the corridor from Ilam to Biratnagar ICP on a map of Nepal, with four ways out costed and timed"></a></td>
+</tr>
+</table>
+
+Best Presentation at MBMC HackFest 2026, a 24-hour hackathon with 19 teams, for Team 4NF with Aashika KC, Bidhan Thapaliya and Nilima Mainali.
+
+- **60** product-market pairs, each carrying duty, VAT, freight and demand.
+- **58** compliance requirements, every one naming the authority that enforces it.
+- **48** costed logistics legs, so a corridor is priced to the buyer, not to the border.
+- **62** tests on the scoring weights, route arithmetic and the disruption model.
+
+`Next.js 15` · `React 19` · `TypeScript` · `Web Speech API` · `Vitest`
+
+[Live prototype](https://niryat-hub.vercel.app) · [Case study](https://www.aalokbhandari.com.np/projects/niryat-hub)
 
 ### [SipSetu](https://github.com/aalokbhandari/Sipsetu) &nbsp;·&nbsp; public
 
@@ -65,7 +101,7 @@ Eight things, not forty. No skill bars and no long tail of things I touched once
 
 ## Currently
 
-**Now** — hardening the VAT ledger that runs a live business.
+**Now** — taking Bhada from a winning demo onto a real bus, and hardening the VAT ledger that runs a live business.
 
 **Next** — transport records and hospitality: an in-progress concept for digitizing transport ownership, tax and dealer workflows that are still largely offline in Nepal, and a Nepal-specific hospitality booking platform.
 
@@ -118,4 +154,4 @@ If you have something that needs building — or something already built that ha
 
 <picture><source media="(prefers-color-scheme: dark)" srcset=".github/assets/signature-dark.svg"><img src=".github/assets/signature-light.svg" alt="Building systems, not collecting stacks."></picture>
 
-<sub><i>Last updated: August 2026</i></sub>
+<sub><i>Last updated: October 2026</i></sub>
